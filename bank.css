@@ -1,0 +1,58 @@
+.body{
+    background-color: rgb(19, 17, 17);
+    color: white;
+    margin: 30px;
+}
+.navbar{
+    color: white;
+    margin: 30px;
+}
+.fin{
+    color: rgb(156, 204, 24);
+}
+.button{
+background-color: rgb(174, 209, 18);
+padding: 10px;
+border-radius: 16px;
+color: black;
+}
+.welcome{
+    padding-top: 30px;
+}
+.usecases{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.for{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+padding-top: 50px;
+}
+.individuals{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.business{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.text{
+    color: lightgrey;
+}
+
+.features{
+    background-color: rgb(34, 32, 32);
+    padding: 40px;
+}
