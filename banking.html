@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>banking website</title>
-  <link rel="stylesheet" href="./bank.css" />
+  <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="./bank.js"></script>
@@ -23,12 +23,13 @@
       <h1>Security</h1>
     </div>
     <div class="flex justify-between gap-8">
-      <button>Sign Up</button>
-      <button class="button">Login</button>
+      <a href="./signup.html"><button>Sign Up</button></a>
+      <a href="./login.html"> <button class="loginb">Login</button></a>
     </div>
   </div>
-  <div class="flex justify-between">
-    <div class="w-1/2 h-96 p-12">
+  <div class="home">
+    <div >
+      <!-- class="md:w-1/2 h-96 p-12" -->
       <img src="./imges/Container.svg" alt="" width="200px" />
       <p class="text-3xl font-bold">
         Welcome to YourBank <br />
@@ -43,8 +44,8 @@
       <br /><br />
       <button class="button">Open Account</button>
     </div>
-    <div>
-      <img src="./imges/Group 2.svg" alt="" height="500px" width="500px" />
+    <div class=""  >
+      <img src="./imges/Group 2.svg" alt=""  class="fimg" />
     </div>
   </div>
 
@@ -184,7 +185,7 @@
     <div class="gridcontainer">
       <div class="card">
         <p>How do I open an account with YourBank?</p>
-        <p class="text">
+        <p class="text py-6">
           Opening an account with YourBank is easy. Simply visit our website
           and click on the "Open an Account" button. Follow the prompts,
           provide the required information, and complete the application
@@ -194,7 +195,7 @@
       </div>
       <div class="card">
         <p>What documents do I need to provide to apply for a loan?</p>
-        <p class="text">
+        <p class="text py-6">
           The documents required for a loan application may vary depending on
           the type of loan you are applying for. Generally, you will need to
           provide identification documents (such as a passport or driver's
@@ -206,7 +207,7 @@
       </div>
       <div class="card">
         <p>How can I access my accounts online?</p>
-        <p class="text">
+        <p class="text py-6">
           Accessing your accounts online is simple and secure. Visit our
           website and click on the "Login" button. Enter your username and
           password to access your accounts. If you haven't registered for
@@ -217,7 +218,7 @@
       </div>
       <div class="card">
         <p>Are my transactions and personal information secure?</p>
-        <p class="text">
+        <p class="text py-6">
           At YourBank, we prioritize the security of your transactions and
           personal information. We employ industry-leading encryption and
           multi-factor authentication to ensure that your data is protected.
@@ -279,27 +280,27 @@
     </div>
 
   </div><br><br>
-<div class="flex justify-between align-center card">
-  <div>
-    <p class="text-2xl">Start your financial journey with <b class="fin">YourBank today!</b> </p>
-    <p class="text"> Opening an account with YourBank is easy. Simply visit our website
-      and click on the "Open an Account" button. </p>
-  </div>
-  
+  <div class="flex justify-between align-center card">
+    <div>
+      <p class="text-2xl">Start your financial journey with <b class="fin">YourBank today!</b> </p>
+      <p class="text"> Opening an account with YourBank is easy. Simply visit our website
+        and click on the "Open an Account" button. </p>
+    </div>
+
     <div>
       <button class="button">Open Account</button>
     </div>
-</div>
-<div class="flex flex-col last align-center">
-  <img src="./imges/Logo.svg" alt="" width="100px" height="100px">
-  <div class="flex justify-center gap-8">
-    <h1>Home</h1>
-    <h1>Careers</h1>
-    <h1>About</h1>
-    <h1>Security</h1>
   </div>
-<img src="./imges/Containerphn.svg" alt="">
-</div>
+  <div class="last">
+    <img src="./imges/Logo.svg" alt="" width="100px" height="100px">
+    <div class="flex justify-center gap-8">
+      <h1>Home</h1>
+      <h1>Careers</h1>
+      <h1>About</h1>
+      <h1>Security</h1>
+    </div>
+    <img src="./imges/Containerphn.svg" alt="">
+  </div>
 
 </body>
 

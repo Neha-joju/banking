@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./login.js"></script>
+</head>
+
+<body class="body">
+    <div id="login">
+        <p><b>Login</b></p>
+        <p class="welcome">Welcome back to your account! Please login to access your account</p>
+        <div >
+            <div class="enter">
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="Enter Your Email" class="pure-input-rounded bgclr">
+                <label for="passsword"></label>
+                <input type="text" id="passw" placeholder="Enter Your Password" class="pure-input-rounded bgclr">
+            </div>
+    
+            <div class="flex justify-center gap-12">
+            <button onclick="login()" class="button2">Login</button>
+            <a href="./signup.html"><button class="button1">Sign Up</button></a>
+    
+            </div>
+             
+            
+        </div>
+        
+    </div>
+        
+        
+    
+</body>
+
+</html>
